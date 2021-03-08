@@ -7,7 +7,7 @@ exports.showMeSomething = () => {
     },
     {
       id: 2,
-      name: 'Katerina'
+      name: 'Kate'
     },
   ];
 
