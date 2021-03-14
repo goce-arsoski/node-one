@@ -4,9 +4,9 @@ const classExport = require('./classExport');
 
 const app = http.createServer(function(req, res) {
   //console.log(req);
-  if (req.method === 'GET' && req.url === '/') {
+  if (req.method === 'GET' && req.url === '/files') {
   res.writeHead(200, 'Hello');
-  res.end();
+  res.end('something');
   }
 });
 
